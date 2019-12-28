@@ -1,0 +1,126 @@
+section {
+    width: 100%;
+    margin: 0 ;
+    padding: 0;
+}
+
+section > header {
+    font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+    background-color: #F1F4F5;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 40px;
+
+
+}
+
+section header h3 {
+    font-size: 2em;
+    font-weight: 200;
+}
+
+#photos {
+   
+    background-color:#3A3C42 ;
+    padding:50px 0 ;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    
+    
+
+}
+#photos img {
+    margin: 0;
+    width: 12.489428571429%;
+    
+}
+
+.greenny {
+    background-color:#4FC680 ;
+    color: #fff;
+    padding: 40px 20%;
+}
+
+.greenny header{
+    width: 50%;
+}
+
+#con-social header h3{
+    font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size:32px;
+}
+
+#con-social header p {
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;;
+    font-size: 21px;
+}
+
+ #con-social ,#soc-link {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#soc-link li {
+    margin: 0.5em;
+}
+#soc-link li a {
+    text-decoration: none;
+}
+#soc-link {
+    list-style: none;
+    padding: 5em;
+}
+
+section hr {
+    border: 0.1px solid rgb(245, 245, 245);
+    margin: 1em auto;
+}
+
+#form-map hr {
+    border: 0.5px solid rgb(245, 245, 245);
+}
+
+#form-map{
+    margin: 2em auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+#form-map input{
+    width: 25em;
+    margin: 1em auto;
+    border-radius: .3em;
+    border: none;
+    padding: 0.5em;
+}
+
+
+#map{
+   margin-left: 1em;
+}
+
+#map p{
+    display: block;
+    width: 10em;
+}
+
+#form-map button{
+    columns: gray;
+    background-color: white;
+    padding: 0.8em 1.2em;
+    border-radius: 0.3em;
+    border: none;
+}
+
+footer{
+    background-color: #3A3C42;
+    color: #777;
+    font-size: 12px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding:5% 20%;
+}
