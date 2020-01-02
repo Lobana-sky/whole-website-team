@@ -4,11 +4,12 @@
 }
 header{
     background-color: rgb(126, 123, 123);
+    overflow: auto;
 }
 header ul{
     list-style: none;
     float:right;
-    margin-top: 20px;
+    margin-top: 1.75em;
 }
 header div{
     width: 70%;
@@ -17,21 +18,20 @@ header div{
 }
 header ul li{
     float:left;
-    padding:3px 10px;
+    padding:0.010em 0.75em;
 }
 header a {
     text-decoration: none;
     color: white;
 }
-.wrapper::after{
-content:"";
-opacity: 0.5;
-background-image: url("../img/1.png");
-
+header ul a.menue{
+    display: none;
 }
 
+
 .wrapper{
-    background-image: url("../img/1.png");
+    background: url("../img/1.png") no-repeat;
+    background-size: cover;
     background-color: gray;
     text-align: center;
     color:white;
@@ -59,7 +59,7 @@ background-image: url("../img/1.png");
     padding: 10px 50px;
 }
 .wrapper h1{
-    font-size: 100px;
+    font-size: 6.25em;
 }
 .wrapper h1 span{
     color: rgb(4, 199, 30);
@@ -78,14 +78,17 @@ divgreen{
 }
 divgreen img{
     height: 50px;}
-    divgreen h2{
-        font-size:20px;
+divgreen h2{
+    font-size:20px;
     }
-    divgreen p{
-        font-size:10px;
+divgreen p{
+    font-size:10px;
     }
 divgreen section{
     padding-left: 20px;
+}
+divgreen hr.down{
+    display: none;
 }
 /* Manal */
 

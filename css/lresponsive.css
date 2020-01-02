@@ -1,0 +1,45 @@
+@media only screen and (max-width:1120px)
+{
+    header div {
+        width:100%;
+    }
+    .wrapper h1{
+        font-size: 2.5em;
+    }
+    .wrapper p{
+        font-size: 0.75em;
+    }
+    divgreen h2{
+        font-size:0.85em;
+        }
+}
+
+@media only screen and (max-width:850px)
+{
+    header ul a{
+        font-size: 0.75em;
+    }
+}
+
+@media only screen and (max-width:800px)
+{
+    header ul a{
+        display: none;
+    }
+    header ul a.menue{
+        display: block;
+        font-size: 2em;
+    }
+    divgreen {
+        display: block;
+    }
+    divgreen section{
+        padding: 1.5em 0;
+    }
+    divgreen hr.down{
+        display: block;
+        border-bottom: 1px solid white;
+        margin-top: 1em;
+    }
+}
+
